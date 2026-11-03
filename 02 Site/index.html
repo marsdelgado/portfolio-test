@@ -7,9 +7,46 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main class="center">
-    <span class="smiley" role="img" aria-label="Smiley face">🙂</span>
-    <p class="note">This is only a placeholder.</p>
+  <header class="site-header">
+    <a class="logo" href="#top">Your name</a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="#about">About me</a>
+      <a href="#projects">Highlighted projects</a>
+      <a href="#cv">CV</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section id="about" class="section">
+      <h2>About me</h2>
+      <div class="placeholder">Short intro and photo go here</div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Highlighted projects</h2>
+      <div class="grid">
+        <article class="card">
+          <div class="placeholder thumb">Image</div>
+          <h3>Project one</h3>
+          <p>One line on the problem and the outcome.</p>
+        </article>
+        <article class="card">
+          <div class="placeholder thumb">Image</div>
+          <h3>Project two</h3>
+          <p>One line on the problem and the outcome.</p>
+        </article>
+        <article class="card">
+          <div class="placeholder thumb">Image</div>
+          <h3>Project three</h3>
+          <p>One line on the problem and the outcome.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="cv" class="section">
+      <h2>CV</h2>
+      <div class="placeholder">Experience, education and a download link go here</div>
+    </section>
   </main>
 </body>
 </html>
